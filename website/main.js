@@ -1,5 +1,4 @@
 // =========================================
-// PersonalBrand | Identidad Profesional
 // Lógica de navegación y animaciones
 // =========================================
 
