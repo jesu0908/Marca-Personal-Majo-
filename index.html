@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Marca Personal | Identidad Profesional</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "tertiary-fixed-dim": "#b7c8e1",
+                "on-error-container": "#93000a",
+                "primary-fixed": "#dae2fd",
+                "on-tertiary-fixed-variant": "#38485d",
+                "surface-container-high": "#e6e8ea",
+                "surface-tint": "#565e74",
+                "on-secondary-container": "#57657b",
+                "on-tertiary": "#ffffff",
+                "surface-container-lowest": "#ffffff",
+                "on-secondary-fixed-variant": "#3a485c",
+                "on-primary-fixed-variant": "#3f465c",
+                "secondary-fixed-dim": "#b9c7e0",
+                "on-error": "#ffffff",
+                "primary-container": "#131b2e",
+                "inverse-primary": "#bec6e0",
+                "surface-variant": "#e0e3e5",
+                "secondary-fixed": "#d5e3fd",
+                "on-primary": "#ffffff",
+                "surface-container": "#eceef0",
+                "surface-bright": "#f7f9fb",
+                "surface-container-low": "#f2f4f6",
+                "secondary-container": "#d5e3fd",
+                "on-background": "#191c1e",
+                "on-surface-variant": "#45464d",
+                "surface-container-highest": "#e0e3e5",
+                "outline-variant": "#c6c6cd",
+                "on-surface": "#191c1e",
+                "tertiary": "#000000",
+                "error-container": "#ffdad6",
+                "surface-dim": "#d8dadc",
+                "tertiary-fixed": "#d3e4fe",
+                "surface": "#f7f9fb",
+                "on-primary-container": "#7c839b",
+                "primary": "#000000",
+                "inverse-surface": "#2d3133",
+                "on-tertiary-fixed": "#0b1c30",
+                "on-tertiary-container": "#75859d",
+                "inverse-on-surface": "#eff1f3",
+                "error": "#ba1a1a",
+                "background": "#f7f9fb",
+                "on-secondary": "#ffffff",
+                "outline": "#76777d",
+                "on-primary-fixed": "#131b2e",
+                "on-secondary-fixed": "#0d1c2f",
+                "secondary": "#515f74",
+                "primary-fixed-dim": "#bec6e0",
+                "tertiary-container": "#0b1c30"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.125rem",
+                "lg": "0.25rem",
+                "xl": "0.5rem",
+                "full": "0.75rem"
+            },
+            "spacing": {
+                "unit": "8px",
+                "margin-mobile": "16px",
+                "margin-desktop": "64px",
+                "max-width": "1200px",
+                "gutter": "24px"
+            },
+            "fontFamily": {
+                "headline-lg": ["Hanken Grotesk"],
+                "body-lg": ["Public Sans"],
+                "headline-md": ["Hanken Grotesk"],
+                "headline-lg-mobile": ["Hanken Grotesk"],
+                "body-md": ["Public Sans"],
+                "display-xl": ["Hanken Grotesk"],
+                "label-md": ["Public Sans"],
+                "headline-sm": ["Hanken Grotesk"]
+            },
+            "fontSize": {
+                "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "500"}],
+                "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
+                "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                "display-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                "headline-sm": ["24px", {"lineHeight": "32px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body class="font-body-md text-body-md">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-md px-margin-mobile md:px-margin-desktop flex justify-center items-center h-16 border-b border-outline-variant">
+<div class="flex justify-between items-center w-full max-w-max-width">
+<div id="brand-reload" class="flex items-center gap-3 cursor-pointer">
+    <img src="https://cdn.discordapp.com/attachments/1312550601917333655/1508231128366972999/IMG_1187.png?ex=6a14c932&is=6a1377b2&hm=a1006e8b2ee15d99e2db98f5398a667bc3c91c2b4c727fe6dc57549c63753d6f&" alt="Logo Marca Personal" class="w-8 h-8 object-contain" />
+    <span class="font-headline-sm text-headline-sm font-bold text-primary">Marca Personal</span>
+</div>
+<div class="hidden md:flex gap-8 items-center relative">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md hover:text-primary transition-colors duration-200" href="#perfil">Perfil</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200" href="#valores">Valores</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200" href="#mision">Misión</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200" href="#estrategia">Matriz DOFA</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200" href="#hoja-de-vida">CV</a>
+<button class="text-secondary font-body-md text-body-md hover:text-primary transition-colors duration-200 relative" id="desktop-menu-btn">Más</button>
+<div id="desktop-menu" class="hidden absolute top-full right-0 bg-surface border border-outline-variant shadow-lg flex flex-col gap-4 p-6 w-56 z-40 mt-2">
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#publico-objetivo">Público Objetivo</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#identidad-visual">Identidad Visual</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#plan-comunicacion">Plan de Comunicación</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#mapa-suenos">Mapa de Sueños</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded font-label-md">Redes Sociales</button>
+</div>
+<button class="md:hidden text-primary" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div id="mobile-menu" class="hidden absolute top-16 left-0 w-full bg-surface border-b border-outline-variant shadow-lg md:hidden flex flex-col gap-4 p-6">
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#perfil">Perfil</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#valores">Valores</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#mision">Misión</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#estrategia">Matriz DOFA</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#hoja-de-vida">CV</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#publico-objetivo">Público Objetivo</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#identidad-visual">Identidad Visual</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#plan-comunicacion">Plan de Comunicación</a>
+<a class="text-secondary font-body-md text-body-md hover:text-primary transition-colors" href="#mapa-suenos">Mapa de Sueños</a>
+</div>
+</button>
+</nav>
+<main class="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop pt-32 pb-24">
+<!-- Section 1: Perfil (Hero) -->
+<section class="mb-32 flex flex-col md:flex-row items-center gap-16" id="perfil">
+<div class="w-full md:w-1/2">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden border border-outline-variant">
+<img alt="Fotografía Profesional" class="w-full h-full object-cover" data-alt="A professional studio portrait of a confident man in a dark tailored suit against a neutral architectural background. The lighting is sophisticated and directional, highlighting facial features with soft shadows. The overall aesthetic is corporate modern, clean, and minimalist, conveying authority and approachability in a light-mode environment." src="https://cdn.discordapp.com/attachments/1312550601917333655/1508210767772782804/image.jpg?ex=6a14b63c&is=6a1364bc&hm=b9a8864ff6980a6611d55bd71e9b109d752ae40001c97fed67bc0140ab32613d&"/>
+</div>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<h2 class="font-label-md text-label-md text-secondary uppercase tracking-widest">Identidad de Marca</h2>
+<h1 class="font-display-xl text-display-xl md:text-display-xl text-primary leading-tight">Maria Jose Arredondo Arboleda</h1>
+<p class="font-headline-sm text-headline-sm text-on-surface-variant font-light">Estudiante de Negocios Internacionales</p>
+<div class="pt-8 flex gap-4">
+<a href="#propuesta" class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md hover:opacity-90 transition-opacity inline-block">Ver Propuesta</a>
+</div>
+</div>
+</section>
+<!-- Section 2: Valores & 3: Misión/Visión -->
+<section class="mb-32" id="valores">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bento-item p-10 bg-surface-container-low border border-outline-variant rounded-xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-4xl">settings_suggest</span>
+<h3 class="font-headline-sm text-headline-sm">Valores Funcionales</h3>
+<p class="text-on-surface-variant">Me caracterizo por la disciplina, la creatividad y el aprendizaje constante para crecer personal y profesionalmente.</p>
+</div>
+<div class="bento-item p-10 bg-primary text-on-primary rounded-xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-on-primary text-4xl">groups</span>
+<h3 class="font-headline-sm text-headline-sm">Valores Sociales</h3>
+<p class="text-primary-fixed">Busco transmitir autenticidad, respeto y liderazgo positivo en mis relaciones con los demás.</p>
+</div>
+<div class="bento-item p-10 bg-surface-container-low border border-outline-variant rounded-xl flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary text-4xl">favorite</span>
+<h3 class="font-headline-sm text-headline-sm">Valores Emocionales</h3>
+<p class="text-on-surface-variant">Quiero inspirar perseverancia, motivación y confianza, demostrando que con esfuerzo se pueden alcanzar grandes metas.</p>
+</div>
+</div>
+<div class="mt-24 grid grid-cols-1 md:grid-cols-2 gap-16 border-t border-outline-variant pt-24" id="mision">
+<div>
+<h2 class="font-headline-md text-headline-md mb-6">Misión</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Desarrollarme como una profesional integral en el ámbito de los Negocios Internacionales, utilizando mi pasión por los idiomas y el entendimiento multicultural como herramientas para conectar mercados y personas.</p>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md mb-6">Visión</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Ser reconocida como una estratega y líder en negociaciones internacionales, destacando por mi inteligencia cultural, dominio de múltiples idiomas y capacidad para generar alianzas globales de alto valor.
+</p>
+</div>
+</div>
+</section>
+<!-- Section 4: Matriz DOFA -->
+<section class="mb-32" id="estrategia">
+<h2 class="font-headline-lg text-headline-lg mb-12 text-center">Matriz DOFA Personal</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="p-8 border border-outline-variant rounded-xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">trending_up</span>
+<h4 class="font-label-md text-label-md uppercase tracking-widest font-bold">Fortalezas</h4>
+</div>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Formación en Negocios Internacionales</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Afinidad Lingüística y Cultural</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Disciplina de Alto Rendimiento</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Habilidades Blandas Desarrolladas</li>
+</ul>
+</div>
+<div class="p-8 bg-surface-container-high rounded-xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-secondary">warning</span>
+<h4 class="font-label-md text-label-md uppercase tracking-widest font-bold">Debilidades</h4>
+</div>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Falta de Experiencia Laboral Previa</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Proceso de Transición al Mundo Corporativo</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Poco Uso del Inglés en Entorno Profesional</li>
+</ul>
+</div>
+<div class="p-8 bg-surface-container-high rounded-xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-secondary">lightbulb</span>
+<h4 class="font-label-md text-label-md uppercase tracking-widest font-bold">Oportunidades</h4>
+</div>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Mercado Globalizado y TeleTrabajo</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Programas de Semilleros</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Contacto con Profesores, Egresados y Compañeros</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-secondary rounded-full"></span> Acceso a Comunidades de Aprendizaje</li>
+</ul>
+</div>
+<div class="p-8 border border-outline-variant rounded-xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="material-symbols-outlined text-primary">priority_high</span>
+<h4 class="font-label-md text-label-md uppercase tracking-widest font-bold">Amenazas</h4>
+</div>
+<ul class="space-y-4 text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Alta Competencia en el Mercado</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Exigencia de Experiencia Laboral Previa</li>
+<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Cambios Rápidos en la Industria</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- Section 5: Propuesta de Valor -->
+<section id="propuesta" class="mb-32 bg-primary-container p-16 rounded-xl text-center">
+<h2 class="font-headline-lg text-headline-lg text-primary-fixed mb-8">Propuesta de Valor</h2>
+<p class="font-headline-md text-headline-md text-white max-w-3xl mx-auto leading-relaxed">
+                "Ayudo a las organizaciones a tender puentes hacia nuevos mercados aportando una visión joven y estratégica."
+            </p>
+</section>
+<!-- Section 6: Reputación -->
+<section class="mb-32">
+<h2 class="font-headline-md text-headline-md mb-12">Cómo me perciben</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="p-8 border-l-4 border-primary bg-surface-container-lowest">
+<p class="italic text-on-surface-variant mb-4">"Maria José tiene una capacidad única para simplificar problemas complejos."</p>
+<p class="font-bold">- Profesor Francisco</p>
+</div>
+<div class="p-8 border-l-4 border-outline bg-surface-container-lowest">
+<p class="italic text-on-surface-variant mb-4">"María José es responsable organizada y toma el rol de líder cuando es necesario, es una excelente compañera de trabajo pero rígida con sus estándares."</p>
+<p class="font-bold">- Colega de Proyecto Camila</p>
+</div>
+<div class="p-8 border-l-4 border-primary bg-surface-container-lowest">
+<p class="italic text-on-surface-variant mb-4">"Transmite una seguridad que inspira a todo el equipo."</p>
+<p class="font-bold">- Entrenadora Maria</p>
+</div>
+<div class="p-8 border-l-4 border-outline bg-surface-container-lowest">
+<p class="italic text-on-surface-variant mb-4">"Es la persona a la que acudimos cuando necesitamos opiniones."</p>
+<p class="font-bold">- Compañera de Estudio Valentina</p>
+</div>
+<div class="p-8 border-l-4 border-primary bg-surface-container-lowest">
+<p class="italic text-on-surface-variant mb-4">"Dedicada, Empatica y siempre dispuesta a ayudar."</p>
+<p class="font-bold">- Madre</p>
+</div>
+</div>
+</section>
+<!-- Section 7: Público Objetivo -->
+<section class="mb-32" id="publico-objetivo">
+<h2 class="font-headline-md text-headline-md mb-12">Público Objetivo</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-6">
+<div class="h-64 rounded-xl overflow-hidden mb-6">
+<img alt="Audiencia 1" class="w-full h-full object-cover" data-alt="A modern office interior featuring a diverse group of young entrepreneurs in a collaborative meeting. The setting is a bright, airy coworking space with glass walls, minimalist wooden furniture, and lush indoor plants. The lighting is natural and vibrant, emphasizing a culture of innovation and professional growth within a high-end corporate identity." src="https://cdn.discordapp.com/attachments/1312550601917333655/1508273917259681872/24-1159284_Is-human-resources-a-good-career-for-you_Blog_1000x568.png?ex=6a14f10c&is=6a139f8c&hm=56c6771193284200c97245768340d47fde90e7726f154a2aeb4f8ec422a77c8a&"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm">Reclutadores en Empresas Afines</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 bg-surface-container rounded">
+<p class="font-label-md text-primary">Demográfico</p>
+<p class="text-on-surface-variant">25-45 años, sin genero ni ubicación específica, Profesional Universitario, Coordinador en Talento Humano.</p>
+</div>
+<div class="p-4 bg-surface-container rounded">
+<p class="font-label-md text-primary">Psicográfico</p>
+<p class="text-on-surface-variant">personas observadoras, analíticas y dinámicas, interesadas en personal joven, que buscan talentos con excelente actitud y dominio de idiomas.</p>
+</div>
+</div>
+</div>
+<div class="space-y-6">
+<div class="h-64 rounded-xl overflow-hidden mb-6">
+<img alt="Audiencia 2" class="w-full h-full object-cover" data-alt="A focused young professional woman working on a laptop in a stylish, minimalist home office. The workspace is organized with high-end tech accessories, a clean white desk, and soft warm lighting from a designer lamp. The overall mood is sophisticated and creative, representing a successful independent consultant or freelancer in a modern light-mode environment." src="https://cdn.discordapp.com/attachments/1312550601917333655/1508274161967960104/PATENTE-1568x1045.png?ex=6a14f146&is=6a139fc6&hm=5dfbbdb37872b8ee9ba1647632bc1e479a15f316cb9617afb4ca128ce9bb3d4e&"/>
+</div>
+<h3 class="font-headline-sm text-headline-sm">Comunidad Educativa</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="p-4 bg-surface-container rounded">
+<p class="font-label-md text-primary">Demográfico</p>
+<p class="text-on-surface-variant">18-60 años, sin genero en específico, Educación Superior, Estudiantes y Profesores, que estudien en la IUE.</p>
+</div>
+<div class="p-4 bg-surface-container rounded">
+<p class="font-label-md text-primary">Psicográfico</p>
+<p class="text-on-surface-variant">público con una mentalidad global, orientado al aprendizaje y el crecimiento profesional que buscan a estudiantes que apoyen en la gestión de proyectos académicos.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 8: Identidad Visual -->
+<section id="identidad-visual" class="mb-32">
+<h2 class="font-headline-md text-headline-md mb-12">Identidad Visual</h2>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<div class="lg:col-span-2 p-12 bg-white border border-outline-variant rounded-xl flex flex-col items-center justify-center gap-8">
+    <img src="https://cdn.discordapp.com/attachments/1312550601917333655/1508231128366972999/IMG_1187.png?ex=6a14c932&is=6a1377b2&hm=a1006e8b2ee15d99e2db98f5398a667bc3c91c2b4c727fe6dc57549c63753d6f&" alt="Logo Marca Personal" class="object-contain" style="width:200px; height:200px;" />
+
+    <p class="font-label-md text-headline-sm text-center tracking-widest text-primary uppercase">"El conocimiento de hoy, diseñado para los negocios del mañana"</p>
+</div>
+<div class="space-y-4">
+<div class="p-6 bg-surface-container-low border border-outline-variant rounded-xl">
+<h4 class="font-label-md text-label-md uppercase mb-2">Tipografía</h4>
+<p class="font-headline-sm text-headline-sm font-bold">Hanken Grotesk</p>
+<p class="text-on-surface-variant">Elegida por su claridad geométrica y modernidad atemporal.</p>
+</div>
+<div class="p-6 bg-surface-container-low border border-outline-variant rounded-xl">
+<h4 class="font-label-md text-label-md uppercase mb-2">Colores</h4>
+<div class="flex gap-2">
+<div class="w-8 h-8 rounded" style="background:#0b2345;" title="Azul Marino"></div>
+<div class="w-8 h-8 rounded" style="background:#4f7ec7;" title="Azul Estratégico"></div>
+<div class="w-8 h-8 rounded" style="background:#2d8f8a;" title="Verde Azulado"></div>
+<div class="w-8 h-8 rounded" style="background:#c9a658;" title="Dorado"></div>
+</div>
+<p class="mt-2 text-on-surface-variant">Paleta inspirada en el logo: azul marino, azul estratégico, verde azulado y dorado metálico para una identidad global y moderna.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 9: Plan de Acción -->
+<section class="mb-32" id="plan-comunicacion">
+<h2 class="font-headline-md text-headline-md mb-12">Plan de Acción</h2>
+<div class="space-y-8">
+<div class="flex gap-8 items-start group">
+<div class="pt-2"><span class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-white font-bold">01</span></div>
+<div class="pb-8 border-b border-outline-variant w-full">
+<h3 class="font-headline-sm text-headline-sm mb-2">Portafolio Digital por Correo</h3>
+<p class="text-on-surface-variant">Enviar a reclutadores corporativos un enlace con análisis propios y ensayos sobre comercio global para demostrar iniciativa y capacidad técnica de forma directa.</p>
+</div>
+</div>
+<div class="flex gap-8 items-start group">
+<div class="pt-2"><span class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-bold">02</span></div>
+<div class="pb-8 border-b border-outline-variant w-full">
+<h3 class="font-headline-sm text-headline-sm mb-2">Postulación Académica Directa</h3>
+<p class="text-on-surface-variant">Contactar a profesores y coordinadores por correo institucional para ofrecerse como apoyo en eventos de la facultad y proyectos de investigación.</p>
+</div>
+</div>
+<div class="flex gap-8 items-start group">
+<div class="pt-2"><span class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-bold">03</span></div>
+<div class="pb-8 border-b border-outline-variant w-full">
+<h3 class="font-headline-sm text-headline-sm mb-2">Participación Activa en Canales Internos</h3>
+<p class="text-on-surface-variant">Aportar datos de valor del sector en foros universitarios y grupos de estudio, consolidando una imagen responsable y colaborativa ante docentes y compañeros.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 10: Hoja de Vida -->
+<section class="mb-32" id="hoja-de-vida">
+<div class="p-12 border border-outline-variant rounded-xl bg-white shadow-sm">
+<div class="flex justify-between items-start mb-12">
+<div>
+<h2 class="font-headline-lg text-headline-lg">Curriculum Vitae</h2>
+<p class="text-on-surface-variant">Especialista en Estrategia Digital</p>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 rounded flex items-center gap-2 font-label-md">
+<span class="material-symbols-outlined text-sm">download</span> Descargar PDF
+                    </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<div>
+<h4 class="font-label-md text-label-md uppercase mb-6 tracking-widest font-bold">Experiencia</h4>
+<div class="space-y-8">
+<div>
+<p class="font-bold">Lead Consultant @ TechVanguard</p>
+<p class="text-sm text-secondary mb-2">2021 — Actualidad</p>
+<p class="text-on-surface-variant">Liderazgo de equipos multidisciplinarios para la transformación de marca de más de 15 startups.</p>
+</div>
+<div>
+<p class="font-bold">Digital Strategist @ CreativeFlow</p>
+<p class="text-sm text-secondary mb-2">2018 — 2021</p>
+<p class="text-on-surface-variant">Desarrollo de campañas integradas que incrementaron el ROI en un 40% promedio.</p>
+</div>
+</div>
+</div>
+<div>
+<h4 class="font-label-md text-label-md uppercase mb-6 tracking-widest font-bold">Educación</h4>
+<div class="space-y-8">
+<div>
+<p class="font-bold">Máster en Branding &amp; Gestión de Marca</p>
+<p class="text-sm text-secondary mb-2">Universidad Internacional</p>
+</div>
+<div>
+<p class="font-bold">Grado en Diseño de Comunicación</p>
+<p class="text-sm text-secondary mb-2">Politécnico Nacional</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 11: Mapa de Sueños -->
+<section class="mb-32" id="mapa-suenos">
+<h2 class="font-headline-md text-headline-md mb-12 text-center">Mapa de Sueños</h2>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden group relative">
+<img alt="Meta 1" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A breathtaking long-exposure shot of the Golden Gate Bridge in San Francisco during sunset. The sky is a gradient of deep orange and soft violet, reflecting on the calm Pacific water. The bridge's iconic architecture stands out sharply, symbolizing ambition, global connection, and professional expansion in a high-quality cinematic style." src="https://media.discordapp.net/attachments/1312550601917333655/1508266733121704096/1.jpg?ex=6a14ea5b&is=6a1398db&hm=cdf6c9bc388b9c8b33fe9d2669020eab761d46c4d535badc528a55973531cdff&=&format=webp&width=544&height=544"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0  transition-opacity flex items-center justify-center p-4">
+</div>
+</div>
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden group relative">
+<img alt="Meta 2" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A clean, minimalist bookshelf in a sunlit library, filled with elegant hardbound books with modern typographic covers. The atmosphere is quiet and intellectually stimulating, representing the goal of authorship and the sharing of profound professional knowledge in a sophisticated light-mode aesthetic." src="https://media.discordapp.net/attachments/1312550601917333655/1508266733419368609/2.jpg?ex=6a14ea5b&is=6a1398db&hm=ea0446ac87f8737d79589b08e3afdb2e6682863c8034c7c1796454fc982ebc6d&=&format=webp&width=544&height=544"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0  transition-opacity flex items-center justify-center p-4">
+</div>
+</div>
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden group relative">
+<img alt="Meta 3" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A silhouette of a professional speaker standing on a stage, addressing a large, captivated audience in a modern conference hall. The stage is lit with professional blue and white studio lighting, creating a high-contrast, impactful visual that symbolizes leadership, influence, and the mastery of public speaking." src="https://media.discordapp.net/attachments/1312550601917333655/1508266733922680982/3.jpg?ex=6a14ea5b&is=6a1398db&hm=c86125899681baff02b7db79db625774629cd1565616ca72567b6a9a2ffcaad3&=&format=webp&width=544&height=544"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0  transition-opacity flex items-center justify-center p-4">
+</div>
+</div>
+<div class="aspect-square bg-surface-container rounded-xl overflow-hidden group relative">
+<img alt="Meta 4" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A serene, high-end mountain retreat with large glass windows overlooking a forest. Inside, a minimalist office space is visible, blending nature with productivity. The lighting is soft and natural, reflecting a dream of sustainable success, mental clarity, and the ultimate work-life harmony in a luxury minimalist setting." src="https://cdn.discordapp.com/attachments/1312550601917333655/1508268369386672189/Morat-TJ.png?ex=6a14ebe1&is=6a139a61&hm=9915f1b93e8cd428e2f88ef271b1503007c429d841dc5219fb19c4c6cb2ffb18&"/>
+<div class="absolute inset-0 bg-primary/40 opacity-0  transition-opacity flex items-center justify-center p-4">
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant py-unit-margin-desktop px-margin-mobile md:px-margin-desktop">
+<div class="w-full flex flex-col md:flex-row justify-between items-center max-w-max-width mx-auto">
+<span class="font-headline-sm text-headline-sm text-primary mb-8 md:mb-0">Marca Personal</span>
+<div class="flex gap-8 mb-8 md:mb-0">
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors underline decoration-1" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors underline decoration-1" href="#">Terms of Service</a>
+<a class="text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors underline decoration-1" href="#">Network</a>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant">© 2026 Marca Personal.</p>
+</div>
+</footer>
+    <script src="main.js" defer></script>
+</body></html>
